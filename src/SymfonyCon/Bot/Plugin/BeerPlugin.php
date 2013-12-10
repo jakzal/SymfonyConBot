@@ -7,7 +7,7 @@ use Phoebe\Plugin\PluginInterface;
 
 class BeerPlugin implements PluginInterface
 {
-    const TRIGGER_PATTERN = '/(beer|pint|pub|bar|party)/';
+    const TRIGGER_PATTERN = '/\b(beer|pint|pub|bar|party)\b/';
 
     const MESSAGE = 'This is how you order a beer in Warsaw: "piwo poprosze"';
 
