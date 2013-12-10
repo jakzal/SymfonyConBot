@@ -16,7 +16,7 @@ Get help:
 
 Example:
 
-    php bot.php symfonycon:bot:run MrBot #random-channel
+    php bot.php symfonycon:bot:run MrBot random-channel
 
 Contributing
 ------------
