@@ -1,0 +1,24 @@
+{
+    "name": "jakzal/symfonycon-bot",
+    "description": "The SymfonyCon IRC bot",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakub Zalas",
+            "email": "jakub@zalas.pl"
+        }
+    ],
+    "require": {
+        "stil/phoebe": "dev-master",
+        "symfony/console": "~2.3"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {"": "src"}
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
