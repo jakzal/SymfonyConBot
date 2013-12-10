@@ -1,6 +1,8 @@
 SymfonyCon IRC bot
 ==================
 
+[![Build Status](https://travis-ci.org/jakzal/SymfonyConBot.png)](https://travis-ci.org/jakzal/SymfonyConBot)
+
 Installation
 ------------
 
