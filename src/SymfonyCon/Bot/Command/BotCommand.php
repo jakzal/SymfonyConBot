@@ -12,6 +12,7 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
+use SymfonyCon\Bot\Plugin\BeerPlugin;
 
 class BotCommand extends Command
 {
@@ -84,7 +85,8 @@ class BotCommand extends Command
     private function getPlugins()
     {
         return array(
-            new PingPongPlugin()
+            new PingPongPlugin(),
+            new BeerPlugin(),
         );
     }
 }
