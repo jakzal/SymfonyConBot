@@ -18,9 +18,14 @@ Get help:
 
 Example:
 
-    php bot.php symfonycon:bot:run MrBot random-channel
+    php bot.php symfonycon:bot:run --nickname=MrBot random-channel
 
 Contributing
 ------------
 
 Look at the example plugin in `src/SymfonyCon/Bot/Plugin` and send us a pull request! :)
+
+Warning
+-------
+
+Please do not run the same bot with the beerplugin or similar in the same channel. It will cause a loop and you will be banned and just cause a lot of spam.
