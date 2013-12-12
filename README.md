@@ -20,6 +20,12 @@ Example:
 
     php bot.php symfonycon:bot:run --nickname=MrBot random-channel
 
+Features
+--------
+
+* BeerPlugin - if you mention beer|pint|pub|bar|party, it will inform you how you can order beer in Warsaw
+* TalksPlugin - type in "next talk" to see what's next on SymfonyCon!
+
 Contributing
 ------------
 
