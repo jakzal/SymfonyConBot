@@ -13,6 +13,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use SymfonyCon\Bot\Plugin\BeerPlugin;
+use SymfonyCon\Bot\Plugin\PytaniaPlugin;
 use SymfonyCon\Bot\Plugin\TalksPlugin;
 
 class BotCommand extends Command
@@ -89,6 +90,7 @@ class BotCommand extends Command
             new PingPongPlugin(),
             new BeerPlugin(),
             new TalksPlugin(),
+            new PytaniaPlugin(),
         );
     }
 }
