@@ -25,6 +25,7 @@ Features
 
 * BeerPlugin - if you mention beer|pint|pub|bar|party, it will inform you how you can order beer in Warsaw
 * TalksPlugin - type in "next talk" to see what's next on SymfonyCon!
+* PytaniaPlugin - advertises "pytania" - the new python framework
 
 Contributing
 ------------
